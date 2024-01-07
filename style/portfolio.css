@@ -1,0 +1,48 @@
+/* common shared style  */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles  */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.web-title {
+    color:  #181818;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+   
+}nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+nav button {
+    height: 40px;
+    width: 60px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 14px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    outline: none; 
+    white-space: nowrap;
+}
+
+/* Optional: Add hover effect */
+nav button:hover {
+    background-color: #FF8C40; 
+}
